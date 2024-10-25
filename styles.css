@@ -1,0 +1,82 @@
+:root{
+    --primary: rgb(248, 203, 158);
+    --secondary: #223634;
+    --tertiary: #CBAD8D;
+    --bg: #F1EDE6;
+}
+body{
+    background-color: rgb(32, 39, 42);
+    
+}
+p{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 15px;
+    color: white;
+
+}
+
+header{
+    color: white;
+    font-size: 40px;
+    font-family: "Playwrite GB S", cursive;
+
+}
+
+
+.button{
+    font-size: 30px;
+    color: var(--bg);
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgb(202, 202, 202);
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: rgb(32, 40, 40);
+}
+
+.button:active{
+    box-shadow: #3a2d28;
+    transform: translateY(4px);
+}
+
+.user{
+    font-size: 20px;
+}
+
+.icon{
+    
+    height: 30px;
+    width: 30px;
+    filter: brightness(0) contrast(100) invert(1);
+}
+
+.picprof{
+    height:25px;
+    width: 25px;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+
+.timeline{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.timelinephotos{
+    border-radius: 100px;
+    width: 300px;
+    height: 300px;
+
+}
+
+.site-nav{
+   text-align: center;
+   display: grid;  
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+
